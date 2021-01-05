@@ -16,12 +16,13 @@ The interesting part about this project 3 I'll build will generate a new ,"fake"
  * Building the Neural Network:
      * Batching the data
      * Creating dataloaders
-     * Initializing RNN model and defining layers
-     * Forward propagation of the neural network
-     * Initialize the hidden state of an LSTM/GRU
-     * Apply forward and back propagation
-  * Training the Neural Network
-  * Set and tune hyperparameters 
+     * Initializing RNN acchitecture
+     * Defining layers
+     * Applying FeedForward behaviour
+     * Initializing hidden state of an LSTM/GRU
+     * Applying Forward and Backpropagation
+  * Training the model
+  * Setting and tuning hyperparameters 
     
 **********************************************************************
 ## Part 3 - Implementing the model
