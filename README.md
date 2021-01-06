@@ -24,8 +24,9 @@ The interesting part about this project 3 I'll build will generate a new ,"fake"
   * Training the model
   * Setting and tuning hyperparameters 
  
-Note: This part of the process requires to apply LSTM. Here is a basic guide of LSTM.
+Note: This part of the process requires to apply LSTM/GRU. Here is a basic guide of each of them.
 ![LSTM](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/basic_LSTM.png?raw=true)
+![GRU](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/basic_GRU.png?raw=true)
 **********************************************************************
 ## Part 3 - Implementing the model
   * Generating new TV scripts
