@@ -34,6 +34,7 @@ Note: This part of the process requires to apply LSTM/GRU. Here is a basic guide
 
 And the most important lesson for this project is about tuning hyperparams
 First set the parameters, then train the neural network and next tune the following parameters:
+
     - Set sequence_length to the length of a sequence.
     - Set batch_size to the batch size.
     - Set num_epochs to the number of epochs to train for.
