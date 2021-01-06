@@ -23,7 +23,9 @@ The interesting part about this project 3 I'll build will generate a new ,"fake"
      * Applying Forward and Backpropagation
   * Training the model
   * Setting and tuning hyperparameters 
-    
+ 
+Note: This part of the process requires to apply LSTM. Here is a basic guide of LSTM.
+[!LSTM](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/Basic_LSTM.png?raw=true)
 **********************************************************************
 ## Part 3 - Implementing the model
   * Generating new TV scripts
