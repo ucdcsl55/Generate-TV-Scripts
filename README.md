@@ -29,4 +29,5 @@ Note: This part of the process requires to apply LSTM/GRU. Here is a basic guide
 ![GRU](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/basic_GRU.png?raw=true)
 **********************************************************************
 ## Part 3 - Implementing the model
-  * Generating new TV scripts
+  * Generating new TV scripts using the final model created
+  ![function](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/lstm_function.png?raw=true)
