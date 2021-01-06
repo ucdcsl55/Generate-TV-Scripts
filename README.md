@@ -31,3 +31,16 @@ Note: This part of the process requires to apply LSTM/GRU. Here is a basic guide
 ## Part 3 - Implementing the model
   * Generating new TV scripts using the final model created
   ![function](https://github.com/ucdcsl55/Generate-TV-Scripts/blob/main/lstm_function.png?raw=true)
+
+And the most important lesson for this project is about tuning hyperparams
+First set the parameters, then train the neural network and next tune the following parameters:
+    - Set sequence_length to the length of a sequence.
+    - Set batch_size to the batch size.
+    - Set num_epochs to the number of epochs to train for.
+    - Set learning_rate to the learning rate for an Adam optimizer.
+    - Set vocab_size to the number of unique tokens in our vocabulary.
+    - Set output_size to the desired size of the output.
+    - Set embedding_dim to the embedding dimension; smaller than the vocab_size.
+    - Set hidden_dim to the hidden dimension of your RNN.
+    - Set n_layers to the number of layers/cells in your RNN.
+    - Set show_every_n_batches to the number of batches at which the neural network should print progress.
